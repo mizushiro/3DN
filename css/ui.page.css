@@ -95,9 +95,7 @@ label {font-size:13px}
 html.scroll_off {overflow:hidden}
 
 /* input */
-.input-a {height:44px;padding:0 12px;border:1px solid #f7f7f7;font-size:14px;border-radius:4px !important;-webkit-appearance:none !important;font-family:'NanumSquare', HelveticaNeue,AppleSDGothicNeo,sans-serif;outline:none;box-sizing:border-box;font-weight:500;background-color:#f7f7f7;color:#222}
-.input-b {height:52px;padding:0 12px;border:1px solid #dfdfdf;font-size:16px;border-radius:4px !important;-webkit-appearance:none !important;font-family:'NanumSquare', HelveticaNeue,AppleSDGothicNeo,sans-serif;outline:none;box-sizing:border-box;font-weight:500;background-color:#fff;color:#222}
-.input-b:focus {border-color:#7d02e3}
+.input-a {height:52px;padding:0 12px;border:1px solid #f2f4f5;font-size:16px;border-radius:4px !important;-webkit-appearance:none !important;font-family:'NanumSquare', HelveticaNeue,AppleSDGothicNeo,sans-serif;outline:none;box-sizing:border-box;font-weight:700;background-color:#f2f4f5;color:#000}
 
 /* ETC */
 .for-a11y {position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;clip:rect(0 0 0 0);overflow:hidden;text-indent:-99em}
@@ -155,6 +153,8 @@ html.scroll_off {overflow:hidden}
 .btn-2 {height:60px;border-radius:4px;text-align:center;min-width:260px;padding:0 32px;font-size:20px;color:#fff;background-color:#35bbc9}
 .btn-3 {height:60px;border-radius:4px;text-align:center;min-width:260px;padding:0 32px;font-size:20px;color:#181a20;background-color:#fff}
 .btn-4 {height:36px;border:1px solid #d6d6d6;border-radius:18px;text-align:center;min-width:126px;padding:0 20px;font-size:13px;color:#707070;font-weight:700}
+.btn-5 {height:54px;border-radius:4px;text-align:center;min-width:180px;padding:0 32px;font-size:18px;color:#000;background-color:#fff;border:1px solid #dbdbdb;font-weight:700}
+.btn-6 {height:60px;border-radius:4px;text-align:center;min-width:180px;padding:0 32px;font-size:22px;color:#fff;background-color:#000;font-weight:400}
 
 .link-go {display:flex;align-items:center;color:#242733;font-size:14px;font-weight:400}
 .link-go:after {content:'';display:block;background:url("/images/common/btn-arrow.png") no-repeat 50% 50%;height:32px;width:32px;margin-left:10px}
@@ -170,13 +170,12 @@ html.scroll_off {overflow:hidden}
 
 /* radio */
 .m-select .select-date {display:none}
-.form_element-radio {position:relative;min-height:24px;line-height:24px;display:inline-block}
+.form_element-radio {position:relative;min-height:18px;line-height:18px;display:inline-block}
 .form_element-radio input[type="radio"] {position:absolute;opacity:0;left:0}
-.form_element-radio input[type="radio"]:checked + label .label-value:after {background-color:#019bd4}
-.form_element-radio label {display:inline-block}
-.form_element-radio label .label-value {display:block;position:relative;padding:0 0 0 32px;line-height:24px;font-size:14px;color:#333;font-weight:500;letter-spacing:-.5px}
-.form_element-radio label .label-value:before {content:'';width:24px;height:24px;position:absolute;top:0;left:0;border:1px solid #c3ccce;background-color:#fff;border-radius:50%;box-sizing:border-box}
-.form_element-radio label .label-value:after {content:'';width:12px;height:12px;position:absolute;background-color:#c3ccce;border-radius:50%;top:6px;left:6px;}
+.form_element-radio input[type="radio"]:checked + label:before {background-color:#35bbc9;border-color:#35bbc9}
+.form_element-radio label {display:inline-block;padding:0 0 0 32px;line-height:18px;font-size:16px;color:#888;font-weight:500;letter-spacing:-.5px;position:relative;}
+.form_element-radio label:before {content:'';width:18px;height:18px;position:absolute;top:0;left:0;border:1px solid #9d9d9d;background-color:#fff;border-radius:50%;box-sizing:border-box}
+.form_element-radio label:after {content:'';width:10px;height:10px;position:absolute;background-color:#fff;border-radius:50%;top:4px;left:4px;}
 
 /* content */
 .top-title {height:160px;background-size:cover;background-repeat:no-repeat;background-position:50% 0;background-image:url("/images/sub/gallery-top.jpg")}
@@ -184,6 +183,34 @@ html.scroll_off {overflow:hidden}
 .top-title .sub-title {font-size:36px;font-weight:800;color:#000}
 
 .sub-content {margin-top:98px}
+
+.img-area.line {padding-bottom:60px;border-bottom:1px dashed #000}
+.img-area img {vertical-align:top}
+
+.form-area {display:flex;justify-content:space-between;margin-top:60px}
+.form-area .img-up-area {width:610px;background-color:#f2f4f5;border-radius:12px;height:310px}
+.form-area .file-info {height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.form-area .txt-file {font-size:18px;color:#000;line-height:20px;font-weight:700;text-align:center;margin-top:16px}
+.form-area .btn-5 {margin-top:36px}
+.form-area .form-content {width:650px}
+.form-area .form-content .input-a {width:100%}
+.form-area .form-content .title-b {margin-bottom:8px}
+.form-area .form-content .title-b ~ .title-b {margin-top:26px}
+.choice-group {display:flex;justify-content:space-between}
+.choice-group .choice-item {height:52px;width:calc((100% - 27px) / 4);background-color:#f2f4f5;border-radius:4px;display:flex;align-items:center;justify-content:center}
+.form-content .btn-box {margin-top:29px;border-top:1px solid #5a5a5a;padding-top:29px}
+.form-content .btn-box .btn-6 {width:100%}
+
+.icon-file {background:url("/images/common/icon-file.png") no-repeat 50% 50%;width:81px;height:74px}
+
+.accordion-wrap {border-top:1px solid #5a5a5a}
+.accordion-item {border-bottom:1px solid #e0e0e0}
+.accordion-item .accordion-title {position:relative;color:#282828;font-size:18px;font-weight:700;padding:36px 20px 36px 68px}
+.accordion-item .accordion-title:before {content:'';position:absolute;left:51px;top:38px;height:16px;width:1px;background-color:#e6e6e6}
+.accordion-item .accordion-title .btn-accordion {position:absolute;top:0;width:100%;left:0;height:100%;bottom:0}
+.accordion-item .accordion-title .btn-accordion:before {content:'';position:absolute;left:0;top:30px;width:36px;height:36px;background:url("/images/common/accordion-off.png") no-repeat 50% 50%;}
+.accordion-item .accordion-title .btn-accordion.active:before {background-image:url("/images/common/accordion-on.png")}
+.accordion-item .panel {margin:-12px 0 0 0;padding:12px 20px 28px 68px;display:none;font-size:18px;color:#888;line-height:24px;word-break:keep-all}
 
 /* tab content */
 .tab-contents,
@@ -214,3 +241,7 @@ html.scroll_off {overflow:hidden}
 
 /* title */
 .title-a {font-size:34px;color:#242733;font-weight:700}
+.title-b {font-size:18px;color:#000;font-weight:700}
+
+/* margin */
+.mt-1 {margin-top:90px}

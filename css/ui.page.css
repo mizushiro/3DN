@@ -36,7 +36,7 @@ strong {font-weight:normal}
 
 /* common */
 html, body {margin:0;padding:0;height:100%;width:100%;min-width:1280px}
-body {color:#333;font-family:'NanumSquare', HelveticaNeue,AppleSDGothicNeo,sans-serif;font:13px;letter-spacing:-.5px}
+body {color:#333;font-family:'NanumSquare', HelveticaNeue,AppleSDGothicNeo,sans-serif;font-size:13px;letter-spacing:-.5px}
 h1, h2, h3, h4, h5, h6 {margin:0;padding:0;font-weight:normal;font-size:inherit}
 form, fieldset {margin:0;padding:0;border:none}
 p, ul, ol, li, dl, dt, dd {list-style-image:none;list-style-position:outside;list-style-type:none;margin:0;padding:0}

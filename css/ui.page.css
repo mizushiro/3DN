@@ -202,6 +202,7 @@ html.scroll_off {overflow:hidden}
 .form-content .btn-box .btn-6 {width:100%}
 
 .icon-file {background:url("/images/common/icon-file.png") no-repeat 50% 50%;width:81px;height:74px}
+.icon-confirm {background:url("/images/common/icon-end.png") no-repeat 50% 50%;width:120px;height:120px}
 
 .accordion-wrap {border-top:1px solid #5a5a5a}
 .accordion-item {border-bottom:1px solid #e0e0e0}
@@ -211,6 +212,11 @@ html.scroll_off {overflow:hidden}
 .accordion-item .accordion-title .btn-accordion:before {content:'';position:absolute;left:0;top:30px;width:36px;height:36px;background:url("/images/common/accordion-off.png") no-repeat 50% 50%;}
 .accordion-item .accordion-title .btn-accordion.active:before {background-image:url("/images/common/accordion-on.png")}
 .accordion-item .panel {margin:-12px 0 0 0;padding:12px 20px 28px 68px;display:none;font-size:18px;color:#888;line-height:24px;word-break:keep-all}
+
+.confirm-massage .icon-confirm {display:block;margin:0 auto}
+.confirm-massage .massage-txt {text-align:center;margin-top:36px;font-size:42px;color:#000;font-weight:700}
+.confirm-massage-box {margin:68px auto 0;width:980px;background-color:#f2f4f5;border-radius:12px;padding:50px 60px}
+.confirm-massage-box .btn-area {margin-top:58px}
 
 /* tab content */
 .tab-contents,
@@ -233,11 +239,9 @@ html.scroll_off {overflow:hidden}
 .txt-decs-a {font-size:13px;line-height:20px;color:#666;word-break:keep-all}
 
 /* list type */
-.dot-list .list-item {padding-left:8px;position:relative;font-size:13px;line-height:16px;color:#666}
-.dot-list .list-item ~ .list-item {margin-top:6px}
-.dot-list .list-item:before {content:'';position:absolute;left:0;top:5px;width:4px;height:4px;border-radius:50%;background-color:#666}
-.dot-list .point-color-a,
-.dot-list .point-color-b {font-weight:600}
+.dot-list .list-item {padding-left:18px;position:relative;font-size:18px;line-height:20px;color:#000;font-weight:700}
+.dot-list .list-item ~ .list-item {margin-top:28px}
+.dot-list .list-item:before {content:'';position:absolute;left:0;top:5px;width:8px;height:8px;border-radius:50%;background-color:#000}
 
 /* title */
 .title-a {font-size:34px;color:#242733;font-weight:700}
